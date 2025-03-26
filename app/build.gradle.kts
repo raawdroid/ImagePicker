@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.raawdroid.mcropimagepicker"
-        minSdk = 28
+        minSdk = 23
         targetSdk = 35
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(project(":image-picker"))
+        //implementation("com.github.raawdroid:ImagePicker:1.0")
 
 
     implementation("androidx.fragment:fragment-ktx:1.8.5")
